@@ -1,0 +1,23 @@
+DynSoA Runtime SDK — Commercial License
+(C) 2025 Sungmin "Jason" Jun. All rights reserved.
+
+This Commercial License governs use of the DynSoA Runtime SDK in proprietary,
+closed-source, or commercial products.
+
+Use cases that require a commercial license include, but are not limited to:
+  - Integration into commercial or closed-source game engines or runtimes
+  - Use in cloud GPU / accelerator services
+  - Use inside paid SaaS products or infrastructure platforms
+  - Distribution of DynSoA as part of a proprietary SDK or engine
+
+This Commercial License grants:
+  - Rights to embed DynSoA into proprietary binaries
+  - A patent license to practice the methods claimed in:
+      U.S. Application No. 19/303,020
+      U.S. Provisional No. 63/775,990
+      Related continuation-in-part applications
+
+This license does NOT permit sublicensing without prior written consent.
+
+For commercial licensing terms and pricing, contact:
+  Email: jjun300700@gmail.com

@@ -1,0 +1,20 @@
+DynSoA Runtime SDK — Patent Notice
+(C) 2025 Sungmin "Jason" Jun. All rights reserved.
+
+This repository contains an implementation of technology described in:
+
+U.S. Non-Provisional Application No. 19/303,020
+U.S. Provisional Application No. 63/775,990
+Continuation-in-Part:
+  “Systems and Methods for Adaptive Optimization and Coordination of
+   Data Layout and Execution on Parallel Processing Architectures.”
+
+The algorithms, methods, processes, and runtime coordination techniques implemented in this repository
+are protected under one or more pending patent applications.
+
+Use of this software does NOT grant a patent license for commercial use.
+Commercial use requires a separate written agreement.
+
+Open-source use under the MPL 2.0 license is permitted ONLY under the terms of that license.
+
+Unauthorized commercial use may constitute patent infringement under 35 U.S.C. §271.
