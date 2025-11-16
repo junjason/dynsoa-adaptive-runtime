@@ -281,6 +281,15 @@ DynSoA Runtime SDK is dual-licensed:
 See [PATENT_NOTICE.txt](./PATENT_NOTICE.txt) for patent information.
 For commercial licensing, contact **jjun300700@gmail.com**.
 
+## Licensing Overview
+
+| Use case                      | Terms                             |
+|------------------------------|-----------------------------------|
+| Personal / research / OSS    | MPL 2.0 (see LICENSE)            |
+| Internal prototyping at a company | Contact for commercial license |
+| Commercial product / SaaS    | Commercial license required      |
+
+
 ---
 
 ## 📈 Want to support development?
