@@ -281,15 +281,6 @@ DynSoA Runtime SDK is dual-licensed:
 See [PATENT_NOTICE.txt](./PATENT_NOTICE.txt) for patent information.
 For commercial licensing, contact **jjun300700@gmail.com**.
 
-
----
-
-## ⭐ Roadmap
-- GPU kernel generation
-- JIT specialization
-- AoSoA hybrid layouts
-- Cloud cluster executor
-
 ---
 
 ## 📈 Want to support development?
