@@ -280,7 +280,6 @@ int main() {
     );
   }
 
-  // ---------- Optional: exercise AoSoA + matrix block APIs ----------
   dynsoa_retile_aosoa_plan_apply(view, 128);
   const char* cols[] = {"Position.x", "Velocity.vx"};
   MatrixBlock mb{};
