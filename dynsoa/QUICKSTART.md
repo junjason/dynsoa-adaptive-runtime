@@ -37,6 +37,32 @@ Artifacts:
 - Logs: `bench.csv`
 - Learned weights persisted to `dynsoa_learn.json` in CWD (override by `DYNSOA_LEARN_PATH` env var).
 
+## Runtime Controls
+
+The smoke and boids demos can be steered without recompiling, using environment variables:
+
+```bash
+# Number of simulation frames to run
+export DYNSOA_FRAMES=2000
+
+# Number of entities (boids / rows) to spawn
+export DYNSOA_ENTITIES=500000
+
+# Enable verbose scheduler logging (layout decisions, bandit signals)
+export DYNSOA_VERBOSE=1
+
+# Optional: where to write learning traces
+export DYNSOA_LEARN_LOG=learn_log.csv
+
+# Optional: override default path for persisted bandit weights
+export DYNSOA_LEARN_PATH=dynsoa_learn.json
+```
+
+Outputs:
+- `bench.csv` — per-frame timing snapshots and layout selections
+- `dynsoa_learn.json` — persisted runtime weights, re-used across runs
+
+
 ## Unity (optional)
 Copy the built native library into:
 ```

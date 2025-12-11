@@ -10,6 +10,20 @@ This repo implements the technology described in a patent family filed by
 
 ---
 
+## 📂 Repository Layout
+
+- `dynsoa/` — core C++ runtime library, demos, and benchmarks
+  - `src/` — scheduler, entity store, kernels, metrics, and runtime glue
+  - `include/dynsoa/` — public headers (C / C++ API surface)
+  - `tests/` — smoke / boids / mixed-batch demos
+  - `QUICKSTART.md` — build & run instructions for the CLI demos
+- `unity/` — optional Unity integration scaffolding (C# bindings and sample scripts)
+- `dynsoa_sdk_whitepaper.md` — deeper technical design & motivation
+- `PATENT_NOTICE.txt` — notes on the related patent filings
+
+If you just want to see DynSoA run end‑to‑end, start with `dynsoa/QUICKSTART.md`.
+
+
 ## ⚡ Why DynSoA?
 Traditional OOP simulation loops are slow because they cause:
 - Random memory access  
