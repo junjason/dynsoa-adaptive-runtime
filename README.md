@@ -127,7 +127,7 @@ void dynsoa_run_kernel(const char* name,
                        const KernelCtx* user_ctx);
 ```
 
-Note: the exact names and struct members may differ slightly in your version; use this as conceptual guidance and match it to dynsoa/dynsoa.h in your repo.
+Note: the exact names and struct members may differ slightly in your version; 
 
 ## 🔁 Minimal Frame Loop Example
 
@@ -200,16 +200,6 @@ int main() {
     return 0;
 }
 ```
-
-The key takeaways:
-
-Your simulation stays “normal C++.”
-
-DynSoA decides how the data is laid out and iterated (SoA/AoSoA/matrix) and logs performance, possibly adapting layouts over time.
-
-You can run the same kernel via different backends (OOP / SoA / DynSoA) to compare.
-
-You can look at tests/boids_multibackend.cpp and tests/smoke_main.cpp in this repo for real examples wired to your actual SDK.
 
 
 ---
